@@ -1,5 +1,7 @@
+import whiteWave from "../../assets/waves/white-wave-header.svg";
+
 function HeroWave() {
-  return <img src="src/assets/hero-component/waves/wave-header.svg" />;
+  return <img src={whiteWave} />;
 }
 
 export default HeroWave;

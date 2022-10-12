@@ -1,4 +1,5 @@
 import HeroWave from "./HeroWave";
+import user from "../../assets/images/web-designer-3.svg";
 
 function HeroStart() {
   return (
@@ -15,7 +16,8 @@ function HeroStart() {
         </div>
         <div className="px-14 pr-20 lg:p-0 mt-0">
           <img
-            src="src/assets/hero-component/images/web-designer-3.svg"
+            /*  src="src/assets/web-designer-3.svg" */ //Traerla de manera directa
+            src={user}
             className="block mt-14 h-auto lg:h-[320px] lg:w-auto"
           />
         </div>

@@ -1,5 +1,6 @@
 import BurgerButton from "./BurgerButton";
 import NavLinks from "./NavLinks";
+import headerAvatar from "../../assets/logos/avatar-icon-header-only.svg";
 
 function Header() {
   const name = "<DanielMartinez/ >";
@@ -9,7 +10,8 @@ function Header() {
         <div className="flex items-center flex-shrink-0 text-white mr-6 ">
           <div className="px-5">
             <img
-              src="src\assets\logos\avatar-icon-header-only.svg"
+              /* src="src\assets\avatar-icon-header-only.svg"  */ //Import directo
+              src={headerAvatar}
               width="50"
               height="50"
               viewBox="0 100 50"

@@ -6,7 +6,7 @@ function Header() {
   const name = "<DanielMartinez/ >";
   return (
     <div className="static select-none ">
-      <nav className="flex items-center justify-around flex-wrap bg-slate-50 dark:bg-slate-800 shadow transition-colors ease-in py-6 lg:p-6 ">
+      <nav className="flex items-center justify-around flex-wrap dark:bg-slate-800 shadow transition-colors ease-in py-6 lg:p-6 ">
         <div className="flex items-center flex-shrink-0 text-white mr-6 ">
           <div className="px-5">
             <img
